@@ -24,29 +24,29 @@ import {trigger, state, style, transition, animate, keyframes} from '@angular/an
 })
 export class AppComponent {
 
-  state: string = 'small';
-  cars = [];
+  // state: string = 'small';
+  // cars = [];
 
   constructor(private dataService: DataService) {
-    this.cars = dataService.cars;
+    // this.cars = dataService.cars;
   }
 
-  animateMe() {
-    this.state = (this.state === 'small' ? 'large' : 'small');
-  }
-
-  title: string = "";
-
-  ngOnInit() {
-    console.log(this.dataService.cars);
-
-    this.title = this.dataService.myData();
-  }
-
-
-  isColorFull = '';
-
-  changeColors() {
-    this.isColorFull = this.isColorFull === '' ? 'color-full' : '';
-  }
+  // animateMe() {
+  //   this.state = (this.state === 'small' ? 'large' : 'small');
+  // }
+  //
+  // title: string = "";
+  //
+  // ngOnInit() {
+  //   console.log(this.dataService.cars);
+  //
+  //   this.title = this.dataService.myData();
+  // }
+  //
+  //
+  // isColorFull = '';
+  //
+  // changeColors() {
+  //   this.isColorFull = this.isColorFull === '' ? 'color-full' : '';
+  // }
 }
