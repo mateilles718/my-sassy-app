@@ -35,7 +35,7 @@ export class AppComponent {
   //   this.state = (this.state === 'small' ? 'large' : 'small');
   // }
   //
-  // title: string = "";
+  title: string = "APP";
   //
   // ngOnInit() {
   //   console.log(this.dataService.cars);
